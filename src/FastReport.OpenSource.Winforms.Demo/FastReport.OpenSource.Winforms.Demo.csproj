@@ -139,10 +139,10 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FastReport.Compat">
-      <Version>2020.3.4</Version>
+      <Version>2020.3.8</Version>
     </PackageReference>
     <PackageReference Include="FastReport.OpenSource">
-      <Version>2020.3.4</Version>
+      <Version>2020.4.11</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
