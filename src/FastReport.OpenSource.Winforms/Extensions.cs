@@ -70,7 +70,24 @@ namespace FastReport.OpenSource.Winforms
 
             preview.Document = doc;
         }
+
+        public static void Preview(this Report report, FRPrintPreviewControlAlt preview, PrinterSettings settings = null)
+        {
+            var doc = report.PrepareDoc(settings);
+            if (doc == null) return;
+
+            preview.Document = doc;
+        }
+
         public static void PreviewMod(this Report report, FRPrintPreviewControl preview, PrinterSettings settings = null)
+        {
+            var doc = report.PrepareDocMod(settings);
+            if (doc == null) return;
+
+            preview.Document = doc;
+        }
+
+        public static void PreviewMod(this Report report, FRPrintPreviewControlAlt preview, PrinterSettings settings = null)
         {
             var doc = report.PrepareDocMod(settings);
             if (doc == null) return;

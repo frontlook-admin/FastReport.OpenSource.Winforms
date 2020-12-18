@@ -33,4 +33,19 @@
     <PackageReference Include="FastReport.OpenSource" Version="2020.4.11" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="FRPreviewAlt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="FRPrintPreviewControlAlt.cs">
+      <SubType>FastReport.OpenSource.Winforms</SubType>
+    </Compile>
+    <Compile Update="FRPrintPreviewControlAlt.cs">
+      <SubType>FastReport.OpenSource.Winforms</SubType>
+    </Compile>
+    <Compile Update="FRPrintPreviewDialogAlt.cs">
+      <SubType>FastReport.OpenSource.Winforms</SubType>
+    </Compile>
+  </ItemGroup>
+
 </Project>

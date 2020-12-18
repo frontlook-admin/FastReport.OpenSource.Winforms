@@ -9,7 +9,7 @@ namespace FastReport.OpenSource.Winforms
 {
     [ToolboxBitmap(typeof(FRPrintPreviewDialog), @"FastReport.OpenSource.Winforms.Print.print_preview.bmp"),
      DesignerCategory(@"FastReport.OpenSource.Winforms"), DesignTimeVisible(true), ToolboxItem(true)]
-    public partial class FRPrintPreviewControl : UserControl
+    public partial class FRPrintPreviewControlAlt : UserControl
     {
         #region Events
 
@@ -65,7 +65,7 @@ namespace FastReport.OpenSource.Winforms
 
         #region Constructors
 
-        public FRPrintPreviewControl()
+        public FRPrintPreviewControlAlt()
         {
             InitializeComponent();
         }

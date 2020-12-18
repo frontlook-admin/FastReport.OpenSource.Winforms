@@ -1,6 +1,6 @@
 ﻿namespace FastReport.OpenSource.Winforms
 {
-    partial class FRPrintPreviewControl
+    partial class FRPrintPreviewControlAlt
     {
         /// <summary> 
         /// Required designer variable.
@@ -89,6 +89,7 @@
             this.btnQuickPrint.Name = "btnQuickPrint";
             this.btnQuickPrint.Size = new System.Drawing.Size(23, 22);
             this.btnQuickPrint.Text = "Rapid Print";
+            this.btnQuickPrint.Visible = false;
             this.btnQuickPrint.Click += new System.EventHandler(this.btnQuickPrint_Click);
             // 
             // btnPrint
@@ -99,11 +100,13 @@
             this.btnPrint.Name = "btnPrint";
             this.btnPrint.Size = new System.Drawing.Size(23, 22);
             this.btnPrint.Text = "Print";
+            this.btnPrint.Visible = false;
             this.btnPrint.Click += new System.EventHandler(this.btnPrint_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
+            this.toolStripSeparator2.Visible = false;
             this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
             // 
             // _btnZoom
@@ -282,6 +285,7 @@
             this.btnCancel.Name = "btnCancel";
             this.btnCancel.Size = new System.Drawing.Size(73, 22);
             this.btnCancel.Text = "Cancel";
+            this.btnCancel.Visible = false;
             this.btnCancel.ToolTipText = "Cancel";
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
